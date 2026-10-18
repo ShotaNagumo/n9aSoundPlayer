@@ -1,0 +1,34 @@
+.gradle/
+.idea/
+local.properties
+build/
+app/build/
+*.iml
+.tools/
+
+# Reproducible assets and local tooling
+node_modules/
+debug-audio/
+.vscode/
+
+# Local configuration, credentials, and signing keys
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+keystore.properties
+credentials.json
+
+# Build artifacts and device diagnostics
+*.apk
+*.aab
+*.apks
+*.log
+*.hprof
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+*.pyc

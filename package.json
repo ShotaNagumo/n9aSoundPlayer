@@ -1,0 +1,10 @@
+{
+  "name": "n9a-music-artwork",
+  "private": true,
+  "scripts": {
+    "render:icon": "node scripts/render-icon.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}
